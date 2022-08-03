@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Panduan Investasi</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <style>
+  * {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+  }
+
+  *:before,
+  *:after {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+  }
+
+  body {
+    color: rgb(64 64 64);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    line-height: 1.75;
+  }
+
+  body {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Cg fill='%236b7280' fill-opacity='.4' fill-rule='evenodd'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .inline-flex {
+    display: inline-flex;
+  }
+
+  nav a {
+    line-height: 64px;
+  }
+
+  .hidden {
+    display: none
+  }
+
+  .block {
+    display: block;
+  }
+
+  .flex-row {
+    flex-direction: row;
+  }
+
+  .flex-col {
+    flex-direction: column;
+  }
+
+  .justify-between {
+    justify-content: space-between;
+  }
+
+  .bg-transparent {
+    background-color: transparent;
+  }
+
+  .bg-neutral-800 {
+    background: rgb(38 38 38);
+  }
+
+  header #logo > a {
+    background: url('https://cdn.wpbeginner.com/wp-content/themes/wpbv6/assets/images/logo-white.svg') no-repeat center;
+    background-size: contain;
+    display: block;
+    text-indent: -9999em;
+    width: 100%;
+    height: 40px;
+  }
+
+  .text-white {
+    color: rgb(255 255 255);
+  }
+
+  .no-underline {
+    text-decoration-line: none;
+  }
+
+  .text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .font-normal {
+    font-weight: 400;
+  }
+
+  .items-center {
+    align-items: center;
+  }
+
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .m-0 {
+    margin: 0px;
+  }
+
+  .border-0 {
+    border-width: 0px;
+  }
+
+  .p-0 {
+    padding: 0px;
+  }
+
+  .px-4 {
+    padding-left: 1.0rem;
+    padding-right: 1.0rem;
+  }
+
+  .px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .max-w-\[1158px\] {
+    max-width: 72.375rem;
+  }
+
+  .w-full {
+    width: 100%;
+  }
+
+  .list-none {
+    list-style-type: none;
+  }
+
+  .order-2 {
+    order: 2;
+  }
+
+  .order-3 {
+    order: 3;
+  }
+
+  #toggle:checked ~ nav {
+    display: block;
+    width: 100%;
+  }
+
+  @media (min-width: 768px) {
+    .md\:flex {
+      display: flex;
+    }
+
+    .md\:hidden {
+      display: none;
+    }
+
+    .md\:block {
+      display: block;
+    }
+
+    .md\:flex-row {
+      flex-direction: row;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .lg\:flex {
+      display: flex;
+    }
+    .lg\:justify-between {
+      justify-content: space-between;
+    }
+  }
+  </style>
+</head>
+<body>
+  
+  <div id="app">
+    <header class="bg-neutral-800">
+      <div class="max-w-[1158px] mx-auto px-4">
+        <div class="flex flex-wrap justify-between items-center mx-auto">
+          <!-- Start Logo -->
+          <div class="py-3" style="width: 141px;">
+            <h1 id="logo" class="text-base font-normal p-0 m-0">
+              <a href="#" class="text-white no-underline">PanduanInvesati - Belajar Investasi Saham</a>
+            </h1>
+          </div>
+          <!-- End Logo-->
+
+          <input type="checkbox" id="toggle" class="hidden">
+          <!-- Star Hamburger -->
+          <label for="toggle" class="inline-flex items-center md:hidden">
+            <svg style="width: 24px; height: 24px;" aria-hidden="true" fill="#ffffff" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+             </svg>
+          </label>
+           <!-- End Hamburger -->
+
+          <!-- Start Navigation -->
+          <nav class="hidden md:block">
+            <ul class="flex flex-col md:flex-row list-none m-0 p-0">
+              <li>
+                <a href="#" class="block text-white no-underline px-5">Menu 1</a>
+              </li>
+              <li>
+                <a href="#" class="block text-white no-underline px-5">Menu 2</a>
+              </li>
+              <li>
+                <a href="#" class="block text-white no-underline px-5">Menu 3</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- End Navigation -->
+
+        </div>
+      </div>
+    </header>
+  </div>
+  
+</body>
+</html>
