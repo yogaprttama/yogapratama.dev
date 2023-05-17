@@ -1,7 +1,0 @@
-#Tinggal Paste langsung jalan
-
-/queue type
-add name="pcq-download" kind=pcq pcq-rate=0 pcq-classifier=dst-address
-add name="pcq-upload" kind=pcq pcq-rate=0 pcq-classifier=src-address
-/queue simple
-add name="Total Bandwidth" target=10.50.10.0/24,10.50.11.0/24,10.50.12.0/24,10.50.13.0/24,10.50.14.0/24 queue=pcq-upload/pcq-download
